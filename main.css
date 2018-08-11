@@ -1,0 +1,108 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.parallax-one {
+  background-image: url(Images/MainBackground.jpg);
+  background-color: gray;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-two {
+  background-image: url(Images/yosemite-2456491_1920.jpg);
+  background-color: gray;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+}
+
+.parallax-three {
+  background-image: url(Images/forest-547363_1920.jpg);
+  background-color: gray;
+  max-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#db {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size-adjust: 1.4;
+  color: #2D383A;
+  margin-top: 75px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.second {
+  color: #ffd700;
+}
+
+#intro {
+  font-family: 'Raleway', sans-serif;
+  color: #2D383A;
+  font-size-adjust: 0.7;
+  margin: auto;
+  padding-bottom: 50px;
+  width: 60%;
+}
+
+.introbutton {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+#about {
+  border-bottom: 5px solid #ffd700;
+  padding-bottom: 20px;
+  margin: 15px;
+}
+
+.my-work {
+  background-color: gray;
+  opacity: 0.8;
+  padding: 25px;
+  margin: 10px;
+  color: white;
+}
+
+#me {
+  display: inline-grid;
+  font-size-adjust: 0.5;
+  color: orange;
+}
+
+form {
+  max-width: 300px;
+  max-height: 600px;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
