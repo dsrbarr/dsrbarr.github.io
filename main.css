@@ -2,36 +2,39 @@ html, body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
 }
 
 .parallax-one {
   background-image: url(./Images/Yos-Main.jpg);
   background-color: gray;
-  min-height: 500px;
+  min-height: 50rem;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom: solid 1px #ffd700;
+  border-top: solid 10px #ffd700;
 }
 
 .parallax-two {
-  background-image: url(./Images/Yos-One.jpg);
+  background-image: url(./Images/bbfocus.jpg);
   background-color: black;
-  min-height: 500px;
+  height: 20rem;
+  width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: red;
-}
-
-.parallax-three {
-  background-image: url(./Images/Fog-One.jpg);
-  max-height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  border-top: 1px solid #ffd700;
 }
 
 #db {
@@ -42,6 +45,7 @@ html, body {
   margin-top: 75px;
   margin-bottom: 25px;
   padding-bottom: 25px;
+  width: auto;
 }
 
 .second {
@@ -62,23 +66,42 @@ html, body {
   position: relative;
   margin: auto;
   padding-top: 25px;
+  width: 60%;
 }
 
-.btn:hover {
-  background-color: black;
+.fire {
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+  margin-top: 15px;
+  font-weight: bold;
+  width: 60%;
+}
+
+.fire:hover {
+  background-color: hsla(0, 100%, 47%, 0.5);
   color: white;
 }
 
 body {
-  background-color: black;
+  background-color: hsla(180, 26%, 16%, 1);
   font-family: 'Raleway', sans-serif;
   color: white;
+  width: 100%;
+  /*border: 1px solid #ffd700; /*Added border around browser*/
 }
 
-#about {
+.about {
   border-bottom: 5px solid #ffd700;
   padding-bottom: 20px;
   margin: 15px;
+  color: #ffd700;
+}
+
+.about-me {
+  color: #ffd700;
+  width: 20rem;
+  text
 }
 
 .my-work {
@@ -87,19 +110,144 @@ body {
   padding: 25px;
   margin: 10px;
   color: white;
+  width: 50%;
 }
 
 #me {
   display: inline-grid;
   font-size-adjust: 0.5;
-  color: orange;
+  color: #ffd700;
+
 }
 
-form {
-  max-width: 300px;
-  max-height: 800px;
-  background-color: hsla(0, 0%, 0%, 0.3);
-  color: white;
-  padding: 10px;
-  margin: 10px;
+/*Footer+Contact -Below*/
+
+.contact-box {
+  background-color: hsla(180, 26%, 16%, 1);
+  color: #ffd700;
+  height: auto;
+}
+.start {
+  background-color: #ffd700;
+  color: hsla(180, 26%, 16%, 1);
+  margin: 5px;
+}
+.start:hover {
+  background-color: transparent;
+  color: #ffd700;
+  border: 1px solid #ffd700;
+}
+footer {
+  background-color: hsla(180, 26%, 16%, 1);
+  color: hsla(180, 26%, 16%, 1);
+  border: 1px solid #ffd700;
+  height: auto;
+  width: 100%;
+  display: run-in;
+}
+
+.orange-fill {
+  background-color: #ffd700;
+}
+
+.fab {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: hsla(180, 26%, 16%, 1);
+}
+
+/*Icon Bounce*/
+
+.fab:hover {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s 2 linear;
+  colr: 000;
+}
+
+.fas:hover {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s 2 linear;
+  colr: 000;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-o-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@-ms-keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }
+
+@keyframes bounce {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: -0.2em;
+  }
+  70% {
+    top: -0.3em;
+  }
+  100% {
+    top: 0;
+  }/home/dbarr/Documents/Developement
 }

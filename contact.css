@@ -1,0 +1,84 @@
+body {
+  background-color: hsla(180, 26%, 16%, 1);
+}
+
+h1 {
+  padding: 5%;
+  text-align: center;
+  color: hsla(180, 26%, 16%, 0.8);
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+.parallax {
+  /*Remove if parallax is unwanted*/
+  background-image: url(./Images/golden-gate-bridge-731207_1920.jpg);
+  background-color: black;
+  min-height: 20rem;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  height: 100px;
+  width: 35%;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: orange;
+  padding: 3%;
+}
+
+.form-control {
+  background-color: hsla(180, 26%, 16%, 0.8);
+  border: 1px solid #ffd700;
+}
+
+#name {
+  background-color: hsla(180, 26%, 16%, 0.8);
+  outline: none;
+  box-shadow:none;
+  color: #ffd700;
+}
+
+#phone {
+  background-color: hsla(180, 26%, 16%, 0.8);
+  outline: none;
+  box-shadow:none;
+  color: #ffd700;
+}
+
+#email {
+  background-color: hsla(180, 26%, 16%, 0.8);
+  outline: none;
+  box-shadow:none;
+  color: #ffd700;
+}
+
+#summary{
+  background-color: hsla(180, 26%, 16%, 0.8);
+  outline: none;
+  box-shadow:none;
+  color: #ffd700;
+}
+
+.btn {
+  background-color: #ffd700;
+  border: 1px solid black;
+  color: hsla(180, 26%, 16%, 1);
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #ffd700;
+  font-weight: bold;
+  width: 50%;
+}
+
+footer {
+  background-color: black;
+  height: 20px;
+}

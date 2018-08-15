@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <title>Contact</title>
+</head>
+
+<header>
+  <div class="parallax">
+    <h1>Reach Out To Me Here</h1>
+  </div>
+</header>
+
+<body>
+  <center>
+    <form name="contactform" methond="post" action="send_form_email.php">
+      <div class="form-group">
+        <label for="name"></label>
+        <input type="text" class="form-control" id="name" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label for="phone"></label>
+        <input type="text" class="form-control" id="phone" placeholder="Phone">
+      </div>
+      <div class="form-group">
+        <label for="email"></label>
+        <input type="email" class="form-control" id="email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="summary"></label>
+        <textarea class="form-control" rows="5" id="summary" placeholder="Breif Summary"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default text-center">Send</button>
+    </form>
+  </center>
+</body>
+</html>
