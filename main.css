@@ -46,36 +46,36 @@ html, body {
   margin-bottom: 25px;
   padding-bottom: 25px;
   width: auto;
+  height: auto;
 }
 
 .second {
   color: #ffd700;
 }
 
-#intro {
+header {
+  display: block;
   font-family: 'Raleway', sans-serif;
   color: #2D383A;
   font-size-adjust: 0.7;
   margin: auto;
   padding-bottom: 50px;
-  width: 60%;
-}
-
-.introbutton {
-  font-family: 'Raleway', sans-serif;
-  position: relative;
-  margin: auto;
-  padding-top: 25px;
-  width: 60%;
+  width: 100%;
+  text-align: center;
 }
 
 .fire {
   border: 1px solid red;
   background-color: transparent;
   color: red;
-  margin-top: 15px;
+  display: inline-block;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  font-style: normal;
   font-weight: bold;
-  width: 60%;
+  font-size: 14px;
+  text-align: center;
 }
 
 .fire:hover {
@@ -117,33 +117,42 @@ body {
   display: inline-grid;
   font-size-adjust: 0.5;
   color: #ffd700;
-
 }
 
 /*Footer+Contact -Below*/
 
 .contact-box {
+  display: block;
   background-color: hsla(180, 26%, 16%, 1);
   color: #ffd700;
   height: auto;
+  width: 100%;
 }
+
 .start {
+  display: block;
   background-color: #ffd700;
   color: hsla(180, 26%, 16%, 1);
   margin: 5px;
+  width: 100%;
+  max-width: 6vw;
 }
+
 .start:hover {
+  display: block;
+  width: 100%;
   background-color: transparent;
   color: #ffd700;
   border: 1px solid #ffd700;
 }
+
 footer {
+  display: block;
   background-color: hsla(180, 26%, 16%, 1);
   color: hsla(180, 26%, 16%, 1);
   border: 1px solid #ffd700;
   height: auto;
   width: 100%;
-  display: run-in;
 }
 
 .orange-fill {
@@ -151,6 +160,7 @@ footer {
 }
 
 .fab {
+  display: relative;
   padding-left: 20px;
   padding-right: 20px;
   color: hsla(180, 26%, 16%, 1);
@@ -236,18 +246,17 @@ footer {
   100% {
     top: 0;
   }
-
-@keyframes bounce {
-  0% {
-    top: 0;
+  @keyframes bounce {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -0.2em;
+    }
+    70% {
+      top: -0.3em;
+    }
+    100% {
+      top: 0;
+    }
   }
-  50% {
-    top: -0.2em;
-  }
-  70% {
-    top: -0.3em;
-  }
-  100% {
-    top: 0;
-  }/home/dbarr/Documents/Developement
-}
