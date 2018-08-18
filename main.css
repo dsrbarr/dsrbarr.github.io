@@ -131,19 +131,22 @@ body {
 
 .start {
   display: block;
+  position: relative;
   background-color: #ffd700;
   color: hsla(180, 26%, 16%, 1);
-  margin: 5px;
-  width: 100%;
-  max-width: 6vw;
+  margin: 0;
+  margin-bottom: 1rem;
+  max-width: 20%;
 }
 
 .start:hover {
   display: block;
-  width: 100%;
   background-color: transparent;
   color: #ffd700;
   border: 1px solid #ffd700;
+  margin: 0;
+  margin-bottom: 1rem;
+  max-width: 20%;
 }
 
 footer {
@@ -169,18 +172,18 @@ footer {
 /*Icon Bounce*/
 
 .fab:hover {
-  display: inline-block;
+  display: block;
   position: relative;
   -moz-animation: bounce 0.5s infinite linear;
   -o-animation: bounce 0.5s infinite linear;
   -webkit-animation: bounce 0.5s infinite linear;
   animation: bounce 0.5s 2 linear;
-  colr: 000;
 }
 
 .fas:hover {
   display: inline-block;
   position: relative;
+  margin: 0;
   -moz-animation: bounce 0.5s infinite linear;
   -o-animation: bounce 0.5s infinite linear;
   -webkit-animation: bounce 0.5s infinite linear;
