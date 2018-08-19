@@ -11,7 +11,6 @@ h1 {
 }
 
 .parallax {
-  /*Remove if parallax is unwanted*/
   background-image: url(./Images/golden-gate-bridge-731207_1920.jpg);
   background-color: black;
   min-height: 20rem;
@@ -33,7 +32,7 @@ form {
 
 .form-control {
   background-color: hsla(180, 26%, 16%, 0.8);
-  border: 1px solid #ffd700;
+  border: 1px solid rgba(110,102,224,1);
 }
 
 #name {
@@ -65,15 +64,17 @@ form {
 }
 
 .btn {
-  background-color: #ffd700;
-  border: 1px solid black;
+  background: rgb(64,191,246);
+	background: linear-gradient(90deg, rgba(64,191,246,1) 0%, rgba(110,102,224,1) 100%);
+  border: 1px solid white;
   color: hsla(180, 26%, 16%, 1);
+  width: 50%;
 }
 
 .btn:hover {
   background-color: transparent;
   border: 2px solid white;
-  color: #ffd700;
+  color: white;
   font-weight: bold;
   width: 50%;
 }
